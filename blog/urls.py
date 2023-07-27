@@ -1,6 +1,7 @@
 from django.urls import path
 
-from mysite33.blog import views
+from blog import views
+
 
 urlpatterns = [
     path("", views.PostView.as_view(), name="home"),
